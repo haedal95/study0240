@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스터디1번</title>
+</head>
+<body>
+    <html>
+        <script>
+            //parseInt 문자열을 숫자열로 바꾸어줌
+        let first = prompt("첫번째 값을 입력하세요.");
+        let a = parseInt(first);
+    
+        let cal = prompt("원하는 사칙연산을 입력하세요.");
+
+        let second = prompt("두번째 값을 입력하세요.");
+        let b = parseInt(second);
+
+        if(cal == "+"){
+            document.write(a+b);
+        }
+
+        if(cal == "-"){
+            document.write(a-b);
+        }
+        
+        if(cal == "*"){
+            document.write(a*b);
+        }
+
+        if(cal == "/"){
+            document.write(a/b);
+        }
+        </script>
+    </html>
+</body>
+</html>
